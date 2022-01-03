@@ -1,0 +1,12 @@
+*node_modules
+web/dist/*
+web/yarn-error.log
+*schema.pdf
+*schema.mdj
+core/media/*
+__pycache__/
+.env*
+!.env.dist
+core/static/*
+core/staticfiles/*
+core/media/*
