@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9ba7db477570e03ea8485fb8cf5502e15264e8419f2ceaefb643f2ffb2a27c23"
+            "sha256": "70d60053a66fc221bd1b92696f1eeab2f0946ef863174c017a48009ca95e0af2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -58,5 +58,45 @@
             "version": "==0.4.2"
         }
     },
-    "develop": {}
+    "develop": {
+        "factory-boy": {
+            "hashes": [
+                "sha256:a98d277b0c047c75eb6e4ab8508a7f81fb03d2cb21986f627913546ef7a2a55e",
+                "sha256:eb02a7dd1b577ef606b75a253b9818e6f9eaf996d94449c9d5ebb124f90dc795"
+            ],
+            "index": "pypi",
+            "version": "==3.2.1"
+        },
+        "faker": {
+            "hashes": [
+                "sha256:89c359e153f6a27820ff1d491e851018064dd65731f7894e226f93e2aa980655",
+                "sha256:ee29deb5174a8bd2e3a1be2f43d9505201d267d383a97ebc67715d12bb386e47"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==11.1.0"
+        },
+        "python-dateutil": {
+            "hashes": [
+                "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86",
+                "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==2.8.2"
+        },
+        "six": {
+            "hashes": [
+                "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
+                "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.16.0"
+        },
+        "text-unidecode": {
+            "hashes": [
+                "sha256:1311f10e8b895935241623731c2ba64f4c455287888b18189350b67134a822e8",
+                "sha256:bad6603bb14d279193107714b288be206cac565dfa49aa5b105294dd5c4aab93"
+            ],
+            "version": "==1.3"
+        }
+    }
 }
