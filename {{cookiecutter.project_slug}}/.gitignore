@@ -10,3 +10,4 @@ __pycache__/
 core/static/*
 core/staticfiles/*
 core/media/*
+*.sqlite3

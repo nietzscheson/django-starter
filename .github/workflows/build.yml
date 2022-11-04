@@ -1,0 +1,16 @@
+name: Build
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      NAME: core
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build Project
+        run: cd \{\{cookiecutter.project_slug\}\} && make
+      - name: Test Project
+        run: cd \{\{cookiecutter.project_slug\}\} && make
